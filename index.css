@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+.show-move {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+#your-move, #pc-move {
+    font-size: 100px;
+}
+
+.move-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.move-option p {
+    margin: 10px;
+    font-size: 40px;
+}
+
+button {
+    background-color: brown;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 8px 20px;
+    border-radius: 16px;
+}

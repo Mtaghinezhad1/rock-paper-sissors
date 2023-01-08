@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="result">
+        <p id="your-result">you: 0</p>
+        <p id="pc-result">computer: 0</p>
+    </div>
+    <div class="container">
+        <div class="show-move">
+            <p id="your-move">&#9994</p>
+            <p id="pc-move">&#9994</p>
+        </div>
+        <div class="move-option">
+            <p onclick="play('rock','&#9994')" id="rock">&#9994</p>
+            <p onclick="play('paper','&#9995')" id="paper">&#9995</p>
+            <p onclick="play('sissor','&#9996')" id="sissor">&#9996</p>
+        </div>
+    </div>
+    <button onclick="reset()">reset</button>
+</body>
+<script src="index.js"></script>
+</html>
